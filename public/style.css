@@ -1,0 +1,121 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins' , sans-serif;
+}
+body{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+.wrapper{
+  position: relative;
+  max-width: 430px;
+  width: 100%;
+  padding: 34px 34px 20px 34px;
+  border-radius: 6px;
+  background: #fff;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+  
+}
+.wrapper h2{
+  position: relative;
+  font-size: 22px;
+  font-weight: 600;
+  color: #333;
+}
+.wrapper h2::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 28px;
+  background: #4070f4;
+
+}
+.wrapper form{
+  margin-top: 25px;
+
+}
+.wrapper form .input-box{
+  height: 52px;
+  margin: 18px 0;
+}
+form .input-box input{
+  height: 100%;
+  width: 96%;
+  outline: none;
+  padding: 0 15px;
+  font-size: 15px;
+  font-weight: 400px;
+  color: #333;
+  border: 1.5px solid #C7BEBE;
+  border-bottom-width: 2.5px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  
+}
+.input-box input:focus,
+.input-box input:valid{
+border-color: #4070f4;
+
+}
+form .policy{
+  display: flex;
+  align-items: center;
+}
+form .policy h3{
+  color: #707070;
+  font-size: 14px;
+  font-weight: 500px;
+  margin: 0px 0px 2px 10px;
+}
+
+form .input-box.button input{
+  color: #fff;
+  letter-spacing: 1px;
+  border: none;
+  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+  cursor: pointer;
+}
+.input-box.button input:hover{
+
+  background: #0e4bf1;
+}
+form .text h4{
+  color: #333;
+  width: 100%;
+  text-align: center;
+}
+form .text h4 a{
+  color: #4070f4;
+  text-decoration: none;
+}
+form .text h4 a:hover{
+  text-decoration: underline;
+  
+}
+.part
+{
+  display: flex;
+  justify-content: space-evenly;
+  margin: -17px;
+}
+.r1
+{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.heading
+{
+  font-size: 30px;
+  background: linear-gradient(135deg, #9b59b6, #71b7e6);
+    font-style: oblique;
+    border-radius: 12px;
+    text-align: center;
+}
